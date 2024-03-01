@@ -3,7 +3,7 @@ import { cn } from '~/lib/utils'
 import Container from './container'
 
 type TProps = {
-  title: string
+  title?: string
   header: string
   className?: string
 }
