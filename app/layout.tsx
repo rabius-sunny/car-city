@@ -3,7 +3,7 @@ import { Raleway } from 'next/font/google'
 
 import './globals.css'
 
-import Navbar from '~/components/shared/Navbar'
+import Navbar from '~/components/shared/navbar'
 
 const releway = Raleway({ subsets: ['latin'] })
 
