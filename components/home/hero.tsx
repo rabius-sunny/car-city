@@ -5,12 +5,12 @@ import Navbar from '../shared/navbar'
 
 export default function Hero() {
   return (
-    <div className='flex h-[60vh] flex-col lg:min-h-screen'>
+    <div className='flex h-[80vh] flex-col lg:min-h-screen'>
       <Image
         fill
         src='/bg.png'
         alt='Hero background image'
-        className='max-h-[60vh] w-full object-cover brightness-50 lg:min-h-screen'
+        className='max-h-[80vh] w-full object-cover brightness-50 lg:min-h-screen'
       />
       <div className='z-10 -mt-16'>
         <Navbar />
