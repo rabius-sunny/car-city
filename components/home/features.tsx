@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { featuresData } from '~/constants/features'
 import { CheckCircleIcon } from 'lucide-react'
 
-import Container from '../shared/container'
+import Container from '../shared/Container'
 import SectionHeader from '../shared/section-header'
 
 export default function Features() {

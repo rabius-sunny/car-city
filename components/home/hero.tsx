@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import Container from '../shared/container'
+import Container from '../shared/Container'
 import Navbar from '../shared/Navbar'
 
 export default function Hero() {

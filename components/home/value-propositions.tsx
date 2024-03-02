@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { valuesData } from '~/constants/features'
 
-import Container from '../shared/container'
+import Container from '../shared/Container'
 import SectionHeader from '../shared/section-header'
 import Cta from './cta'
 

@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation'
 import { navitems } from '~/constants/info'
 import { cn } from '~/lib/utils'
 
-import Container from './container'
+import Container from './Container'
 
 export default function Navbar() {
   const pathname = usePathname()

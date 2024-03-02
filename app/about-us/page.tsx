@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Container from '~/components/shared/container'
+import Container from '~/components/shared/Container'
 import Navbar from '~/components/shared/Navbar'
 
 export default function AboutUs() {
