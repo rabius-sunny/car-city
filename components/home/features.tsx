@@ -22,8 +22,8 @@ export default function Features() {
       </Container>
       <SectionHeader
         className='mt-10'
-        title='effortless car care'
-        header='Get the Services You Need, Delivered by AI'
+        title='The Future of Car Services'
+        header="Partner with Car City's AI-Powered Platform and Thrive"
       />
       <Container size='md' className='grid grid-cols-1 gap-4 md:grid-cols-2'>
         {featuresData.business.map((item, idx) => (
