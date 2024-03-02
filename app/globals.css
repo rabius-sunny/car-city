@@ -4,10 +4,13 @@
 
 @layer base {
   h1 {
-    @apply text-3xl font-semibold;
+    @apply text-3xl font-semibold tracking-wide;
+  }
+  h2 {
+    @apply font-medium tracking-wider;
   }
   p {
-    @apply text-slate-600;
+    @apply tracking-wider text-slate-600;
   }
   .btn {
     @apply cursor-pointer rounded px-4 py-2 text-sm font-medium uppercase shadow-lg hover:opacity-80;

@@ -3,11 +3,10 @@ import { featuresData } from '~/constants/features'
 import { CheckCircleIcon } from 'lucide-react'
 
 import Container from '../shared/Container'
-import SectionHeader from '../shared/section-header'
 
 export default function Features() {
   return (
-    <div>
+    <div className='-mt-20 md:mt-0'>
       <Container className='grid grid-cols-1 items-center gap-4 md:grid-cols-2'>
         <div>
           <Image
