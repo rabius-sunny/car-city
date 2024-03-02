@@ -9,4 +9,7 @@
   p {
     @apply text-slate-600;
   }
+  .btn {
+    @apply cursor-pointer rounded px-4 py-2 text-sm font-medium uppercase shadow-lg hover:opacity-80;
+  }
 }

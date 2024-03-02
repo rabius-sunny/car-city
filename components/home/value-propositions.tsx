@@ -3,6 +3,7 @@ import { valuesData } from '~/constants/features'
 
 import Container from '../shared/container'
 import SectionHeader from '../shared/section-header'
+import Cta from './cta'
 
 export default function Values() {
   return (
@@ -36,6 +37,9 @@ export default function Values() {
             </div>
           ))}
         </div>
+        <div className='mt-10'>
+          <Cta title='Say goodbye to car ownership stress and hello to a future-proof solution! Join Car City and experience a smarter, smoother car care journey.' />
+        </div>
       </Container>
       <SectionHeader
         className='mb-2'
@@ -65,6 +69,9 @@ export default function Values() {
               </div>
             </div>
           ))}
+        </div>
+        <div className='mt-10'>
+          <Cta title="Join our growing network of trusted car service providers and take your business to the next level with Car City's AI-powered platform." />
         </div>
       </Container>
     </div>
