@@ -15,11 +15,11 @@ export default function AboutUs() {
         <Navbar />
       </div>
       <Container className='z-10 mt-[5vh] sm:mt-[10vh] lg:mt-[20vh]'>
-        <h1 className='text-2xl font-semibold text-white sm:text-3xl md:font-bold lg:text-5xl'>
+        <h1 className='text-center text-2xl font-semibold text-white sm:text-3xl md:text-start md:font-bold lg:text-5xl'>
           Revolutionising Car Ownership with AI-Powered Solutions for a
           Simplified, Seamless, Stress-Free Experience
         </h1>
-        <p className='mt-4 text-white'>
+        <p className='mt-4 text-center text-white md:text-start'>
           Find, compare, and book car services all in one place. From rentals
           and repairs to parts and accessories, its car care made easy, powered
           by AI
