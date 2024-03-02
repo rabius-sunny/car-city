@@ -9,6 +9,7 @@ import { siteInfo } from '~/config/site'
 const releway = Raleway({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://car-city.vercel.app'),
   title: {
     default: siteInfo.name,
     template: `%s | ${siteInfo.name}`
