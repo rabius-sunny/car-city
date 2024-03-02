@@ -27,7 +27,7 @@ export default function Values() {
                   alt='values we propose'
                   width={100}
                   height={100}
-                  className='rounded-lg'
+                  className='size-10 rounded-lg sm:size-20 md:size-12 lg:size-20'
                 />
                 <div>
                   <h2 className='font-semibold'>{item.title}</h2>
@@ -60,7 +60,7 @@ export default function Values() {
                   alt='values we propose'
                   width={100}
                   height={100}
-                  className='rounded-lg'
+                  className='size-10 rounded-lg sm:size-20 md:size-12 lg:size-20'
                 />
                 <div>
                   <h2 className='font-semibold'>{item.title}</h2>
