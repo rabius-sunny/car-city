@@ -1,6 +1,12 @@
+import { Metadata } from 'next'
 import Image from 'next/image'
 import Container from '~/components/shared/Container'
-import Navbar from '~/components/shared/Navbar'
+
+export const metadata: Metadata = {
+  title: 'About us',
+  description:
+    "Car City ~ Empowering Dhaka with AI-powered Car Care. Car City is more than just a platform - it's the future of data-driven car care in Dhaka."
+}
 
 export default function AboutUs() {
   return (
