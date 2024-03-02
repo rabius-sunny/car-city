@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import Container from '../shared/container'
-import Navbar from '../shared/navbar'
+import Navbar from '../shared/Navbar'
 
 export default function Hero() {
   return (
