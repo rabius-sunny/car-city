@@ -24,4 +24,15 @@
   .btn {
     @apply cursor-pointer rounded px-4 py-2 text-sm font-medium uppercase shadow-lg hover:opacity-80;
   }
+  a {
+    @apply hover:text-primary cursor-pointer  tracking-wider;
+  }
+  .footer-item {
+    span {
+      @apply hover:text-primary cursor-pointer text-xs tracking-wider  underline-offset-2 hover:underline sm:text-sm;
+      a {
+        @apply flex items-center gap-1;
+      }
+    }
+  }
 }

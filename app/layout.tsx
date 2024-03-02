@@ -3,6 +3,7 @@ import { Raleway } from 'next/font/google'
 
 import './globals.css'
 
+import Footer from '~/components/shared/footer'
 import Navbar from '~/components/shared/Navbar'
 import { siteInfo } from '~/config/site'
 
@@ -40,6 +41,7 @@ export default function RootLayout({
       <body className={releway.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )
