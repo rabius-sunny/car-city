@@ -15,13 +15,13 @@ export default function Navbar() {
       <Link href='/'>
         <Image src='/logo.png' alt='car city logo' width={80} height={80} />
       </Link>
-      <div className='flex items-center gap-2 text-xs font-medium uppercase sm:gap-4 sm:text-sm lg:gap-8'>
+      <div className='mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs font-medium uppercase sm:text-sm md:mt-0 lg:gap-8'>
         {navitems.map((item, idx) => (
           <Link
             href={item.href}
             key={idx}
             className={cn(
-              'hover:text-sky-500',
+              'hover:text-sky-600',
               pathname === item.href &&
                 'text-sky-500 underline underline-offset-2'
             )}
