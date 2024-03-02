@@ -10,12 +10,12 @@ export default function AboutUs() {
           fill
           src='/about-us.jpeg'
           alt='about us background image'
-          className='max-h-[70vh] w-full object-cover brightness-50 lg:min-h-screen'
+          className='-z-10 max-h-[70vh] w-full object-cover brightness-50 lg:min-h-screen'
         />
-        <div className='z-10 -mt-16'>
-          <Navbar />
-        </div>
-        <Container className='z-10 mt-[5vh] sm:mt-[10vh] lg:mt-[20vh]'>
+        <Container
+          size='md'
+          className='z-10 mt-[5vh] sm:mt-[10vh] lg:mt-[20vh]'
+        >
           <h1 className='text-center text-2xl font-semibold text-white sm:text-3xl md:text-start md:font-bold lg:text-5xl'>
             Car City: Empowering Dhaka with AI-powered Car Care
           </h1>

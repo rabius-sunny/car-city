@@ -1,20 +1,16 @@
 import Image from 'next/image'
 
 import Container from '../shared/Container'
-import Navbar from '../shared/Navbar'
 
 export default function Hero() {
   return (
-    <div className='flex h-[80vh] flex-col lg:min-h-screen'>
+    <div className='flex h-[70vh] flex-col lg:min-h-screen'>
       <Image
         fill
         src='/bg.png'
         alt='Hero background image'
-        className='max-h-[80vh] w-full object-cover brightness-50 lg:min-h-screen'
+        className='-z-10 max-h-[70vh] w-full object-cover brightness-50 lg:min-h-screen'
       />
-      <div className='z-10 -mt-16'>
-        <Navbar />
-      </div>
       <Container className='z-10 mt-[5vh] sm:mt-[10vh] lg:mt-[20vh]'>
         <h1 className='text-center text-2xl font-semibold text-white sm:text-3xl md:text-start md:font-bold lg:text-5xl'>
           Revolutionising Car Ownership with AI-Powered Solutions for a
