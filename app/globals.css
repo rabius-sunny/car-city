@@ -9,8 +9,9 @@
   h2 {
     @apply font-medium tracking-wider;
   }
-  p {
-    @apply tracking-wider text-slate-600;
+  p,
+  li {
+    @apply text-sm tracking-wider text-slate-600 sm:text-base;
   }
   ul {
     @apply ml-4;

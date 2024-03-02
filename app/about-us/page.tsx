@@ -8,6 +8,12 @@ export const metadata: Metadata = {
     "Car City ~ Empowering Dhaka with AI-powered Car Care. Car City is more than just a platform - it's the future of data-driven car care in Dhaka."
 }
 
+const Title = ({ title }: { title: string }) => (
+  <h1 className='border-primary text-primary mt-10 border-l-4 bg-gradient-to-r from-sky-100 p-1 text-lg uppercase sm:p-2 sm:text-2xl'>
+    {title}
+  </h1>
+)
+
 export default function AboutUs() {
   return (
     <div>
@@ -32,9 +38,7 @@ export default function AboutUs() {
         </Container>
       </div>
       <Container size='sm' className='-mt-20 mb-20 grid gap-4 md:mt-0'>
-        <h1 className='border-primary text-primary border-l-4 bg-gradient-to-r from-sky-100 p-4 uppercase'>
-          Our Story
-        </h1>
+        <Title title='our story' />
         <p>
           <strong>In the bustling heart of Dhaka,</strong> car care often felt
           like a gamble. Finding reliable mechanics was a frustrating dance of
@@ -73,16 +77,12 @@ export default function AboutUs() {
           <strong>innovation and community,</strong> fueled by the desire to
           <strong>revolutionise car care in Dhaka.</strong>
         </p>
-        <h1 className='border-primary text-primary mt-10 border-l-4 bg-gradient-to-r from-sky-100 p-4 uppercase'>
-          Car City's Mission
-        </h1>
+        <Title title="Car City's Mission" />
         <p>
           Empowering Dhaka's car owners with{' '}
           <strong>transparent, stress-free car care experiences.</strong>
         </p>
-        <h1 className='border-primary text-primary mt-10 border-l-4 bg-gradient-to-r from-sky-100 p-4 uppercase'>
-          Our Vision
-        </h1>
+        <Title title='Our Vision' />
         <p>
           Transforming Dhaka's car service landscape by becoming the{' '}
           <strong>
@@ -90,9 +90,7 @@ export default function AboutUs() {
             highly-rated professionals.
           </strong>
         </p>
-        <h1 className='border-primary text-primary mt-10 border-l-4 bg-gradient-to-r from-sky-100 p-4 uppercase'>
-          Our Approach
-        </h1>
+        <Title title='Our Approach' />
         <ul className='list-disc'>
           <li>
             <strong>Local Expertise:</strong> We connect you with local
@@ -110,9 +108,7 @@ export default function AboutUs() {
             service history and reviews – all on one convenient platform.
           </li>
         </ul>
-        <h1 className='border-primary text-primary mt-10 border-l-4 bg-gradient-to-r from-sky-100 p-4 uppercase'>
-          what differentiates us
-        </h1>
+        <Title title='what differentiates us' />
         <ul className='list-disc'>
           <li>
             <strong>AI-powered Matching:</strong> Our intelligent algorithms
