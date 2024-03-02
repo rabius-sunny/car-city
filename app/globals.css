@@ -12,6 +12,12 @@
   p {
     @apply tracking-wider text-slate-600;
   }
+  ul {
+    @apply ml-4;
+  }
+  li {
+    @apply mb-2;
+  }
   .btn {
     @apply cursor-pointer rounded px-4 py-2 text-sm font-medium uppercase shadow-lg hover:opacity-80;
   }
