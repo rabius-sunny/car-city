@@ -10,12 +10,12 @@ export default function Navbar() {
         <Image src='/logo.png' alt='car city logo' width={80} height={80} />
       </Link>
       <div className='flex items-center gap-4 text-xs font-medium uppercase sm:text-sm lg:gap-8'>
-        <p>Services</p>
-        <p>Rent a car</p>
-        <p>Garages</p>
-        <p>Exchage</p>
-        <p>About us</p>
-        <p>Contact</p>
+        <h2>Services</h2>
+        <h2>Rent a car</h2>
+        <h2>Garages</h2>
+        <h2>Exchage</h2>
+        <h2>About us</h2>
+        <h2>Contact</h2>
       </div>
     </Container>
   )
