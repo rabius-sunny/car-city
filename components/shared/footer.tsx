@@ -7,7 +7,7 @@ import Container from './Container'
 export default function Footer() {
   return (
     <footer className='mt-20 border border-t border-slate-200 bg-slate-100 py-10 text-slate-400'>
-      <Container className='grid grid-cols-1 gap-8 lg:grid-cols-2'>
+      <Container className='grid grid-cols-1 gap-8 px-2 lg:grid-cols-2'>
         <div className='flex flex-col items-center text-center lg:items-start lg:text-start'>
           <Image src='/logo.png' alt='car city logo' width={100} height={100} />
           <p className='mt-2 text-sm text-slate-400'>
