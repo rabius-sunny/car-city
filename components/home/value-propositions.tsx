@@ -26,6 +26,7 @@ export default function Values() {
                   alt='values we propose'
                   width={100}
                   height={100}
+                  className='rounded-lg'
                 />
                 <div>
                   <h2 className='font-semibold'>{item.title}</h2>
@@ -55,6 +56,7 @@ export default function Values() {
                   alt='values we propose'
                   width={100}
                   height={100}
+                  className='rounded-lg'
                 />
                 <div>
                   <h2 className='font-semibold'>{item.title}</h2>

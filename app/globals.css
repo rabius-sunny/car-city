@@ -6,4 +6,7 @@
   h1 {
     @apply text-3xl font-semibold;
   }
+  p {
+    @apply text-slate-600;
+  }
 }
