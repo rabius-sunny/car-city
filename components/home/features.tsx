@@ -18,7 +18,7 @@ export default function Features() {
           />
         </div>
         <div>
-          <h2 className='font-medium uppercase text-sky-500'>
+          <h2 className='text-primary font-medium uppercase'>
             effortless car care
           </h2>
           <h1 className='text-2xl font-semibold text-slate-700 sm:text-3xl'>
@@ -45,7 +45,7 @@ export default function Features() {
           />
         </div>
         <div>
-          <h2 className='font-medium uppercase text-sky-500'>
+          <h2 className='text-primary font-medium uppercase'>
             The Future of Car Services
           </h2>
           <h1 className='text-2xl font-semibold text-slate-700 sm:text-3xl'>

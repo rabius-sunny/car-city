@@ -23,7 +23,7 @@ export default function Navbar() {
             className={cn(
               'hover:text-sky-600',
               pathname === item.href &&
-                'text-sky-500 underline underline-offset-2'
+                'text-primary underline underline-offset-2'
             )}
           >
             {item.name}

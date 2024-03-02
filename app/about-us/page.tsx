@@ -26,7 +26,7 @@ export default function AboutUs() {
         </Container>
       </div>
       <Container size='sm' className='-mt-20 mb-20 grid gap-4 md:mt-0'>
-        <h1 className='border-l-4 border-sky-500 bg-gradient-to-r from-sky-100 p-4 uppercase text-sky-500'>
+        <h1 className='border-primary text-primary border-l-4 bg-gradient-to-r from-sky-100 p-4 uppercase'>
           Our Story
         </h1>
         <p>
@@ -67,14 +67,14 @@ export default function AboutUs() {
           <strong>innovation and community,</strong> fueled by the desire to
           <strong>revolutionise car care in Dhaka.</strong>
         </p>
-        <h1 className='mt-10 border-l-4 border-sky-500 bg-gradient-to-r from-sky-100 p-4 uppercase text-sky-500'>
+        <h1 className='border-primary text-primary mt-10 border-l-4 bg-gradient-to-r from-sky-100 p-4 uppercase'>
           Car City's Mission
         </h1>
         <p>
           Empowering Dhaka's car owners with{' '}
           <strong>transparent, stress-free car care experiences.</strong>
         </p>
-        <h1 className='mt-10 border-l-4 border-sky-500 bg-gradient-to-r from-sky-100 p-4 uppercase text-sky-500'>
+        <h1 className='border-primary text-primary mt-10 border-l-4 bg-gradient-to-r from-sky-100 p-4 uppercase'>
           Our Vision
         </h1>
         <p>
@@ -84,7 +84,7 @@ export default function AboutUs() {
             highly-rated professionals.
           </strong>
         </p>
-        <h1 className='mt-10 border-l-4 border-sky-500 bg-gradient-to-r from-sky-100 p-4 uppercase text-sky-500'>
+        <h1 className='border-primary text-primary mt-10 border-l-4 bg-gradient-to-r from-sky-100 p-4 uppercase'>
           Our Approach
         </h1>
         <ul className='list-disc'>
@@ -104,7 +104,7 @@ export default function AboutUs() {
             service history and reviews – all on one convenient platform.
           </li>
         </ul>
-        <h1 className='mt-10 border-l-4 border-sky-500 bg-gradient-to-r from-sky-100 p-4 uppercase text-sky-500'>
+        <h1 className='border-primary text-primary mt-10 border-l-4 bg-gradient-to-r from-sky-100 p-4 uppercase'>
           what differentiates us
         </h1>
         <ul className='list-disc'>
