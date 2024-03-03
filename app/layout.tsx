@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Raleway } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 
 import './globals.css'
 
@@ -41,6 +42,7 @@ export default function RootLayout({
       <body className={releway.className}>
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
